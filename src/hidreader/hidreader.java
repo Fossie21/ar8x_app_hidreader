@@ -338,7 +338,7 @@ public class hidreader {
 		else if (replStr.startsWith("URI")) {
 			try
 			{
-				return new EPCTagEngine(t.getEpcString()).buildTagURI();
+				return new EPCTagEngine(t.getEpcString()).buildTagEAN();
 			}
 			catch(Exception e)
 			{
